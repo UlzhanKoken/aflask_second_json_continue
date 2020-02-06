@@ -1,1 +1,1 @@
-{"apple": "=3", "banana": 5, "pear": "3", "grapes": "100", "1": "1", "2": "1", "l": "", "m,m,": "", "": "87", "sdsdsds": "sdsd", "d": "d", "sdsd": "s"}
+{"pear": "3", "grapes": "100", "banana": "5"}
