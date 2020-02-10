@@ -1,6 +1,7 @@
 {% extends 'layout.html' %}
 {% block body %}
-    <ul>
+<!-- post.html -->
+<ul>
         {% for item, quantity in items.items() %}
         <li>{{ item }}: {{ quantity }}</li>
         {% endfor %}
@@ -11,19 +12,22 @@
         <input type="submit"/>
     </form>
 
+
 {% endblock %}
 
-
-<!-- <form method="POST" action="/post">
-    <input name="data" type="text">
-    <input type="submit">
-</form> -->
-<!-- <ul>
+<!-- 
+<ul>
     {% for task in tasks %}
     <li>{{ task }}</li>
     {% endfor %}
 </ul>
 <form method="POST" action="/post">
     <input name="task" type="text">
+    <input type="submit">
+</form> -->
+
+
+<!-- <form method="POST" action="/post">
+    <input name="data" type="text">
     <input type="submit">
 </form> -->
