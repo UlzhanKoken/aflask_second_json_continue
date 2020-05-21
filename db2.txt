@@ -1,0 +1,1 @@
+{"ulzh": "12", "narul": "22", "gilan": "15", "anna": "25", "nadira": "12", "murat": "30"}

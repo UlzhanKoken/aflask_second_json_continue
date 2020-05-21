@@ -1,0 +1,14 @@
+{%extends 'layout.html'%}
+{%block body%}
+  <ul>
+    {%for item, quantity in items.items()%}
+    <li>{{item}}:{{quantity}}</li>
+    {%endfor%}
+    <h2>Winner is {{winner}}</h2>
+  </ul>
+  <form method="POST">
+    <input type="text" name='item'><br>
+    <input type="text" name='quantity'><br> 
+    <input type="submit">
+  </form>
+{%endblock%}
